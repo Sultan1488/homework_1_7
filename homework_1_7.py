@@ -43,10 +43,11 @@ music_group = {
         }
     }
 }
-# print('---Before---')
-# print(music_group['members'])
-# print('')
-# print(music_group['concerts'])
+print('---Before---')
+print(music_group['members'])
+print('')
+print(music_group['concerts'])
+
 
 def add_new_member(group, **kwargs):
     group['members'].update(kwargs)
